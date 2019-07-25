@@ -1,0 +1,212 @@
+body{
+  background-color: #0a2345;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+
+/* nav_bar */
+.navbar{
+    padding: 60px 0px 0px;
+}
+.navbar-toggler{}
+.navbar-toggler span{
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #2a5ea4;
+    margin-bottom: 8px;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.navbar-nav .nav-item{
+    margin-right: 25px;
+}
+.navbar-nav .nav-item .nav-link{color: #ff3334;font-size: 16px;font-weight: 600;text-transform: uppercase;
+transition:all 0.4s ease;}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
+}
+/* cover_section */
+.cover_content{
+    padding: 155px 0px 0px;
+}
+.cover_content h2{
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+.cover_content p{
+    font-size: 18px;
+    color: #2e66b2;
+    margin: 0px;
+    font-family: inherit;
+    margin-bottom: 45px;
+}
+.cover_content span{color: #2e66b2;}
+.cover_content a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #2a5ea4;
+    border-radius: 30px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;transition: all 0.4s ease;
+}
+.cover_content a:hover{
+  color: #ff3334;
+  background-color: #fff;
+  border: 1px solid #ff3334;
+}
+/* music_part */
+.music_part{background-image: url(../images/cover.png);width: 100%;height: 100%;/* background-size: cover; */background-repeat: no-repeat;background-position: center;padding: 200px 0px 110px;}
+.music-content{}
+.music-content a img{transition: all 0.4s ease;
+}
+.music-content a img:hover{
+    box-shadow: 1px 2px 34px #02050a;
+    transform: scale(1.1);
+}
+
+
+/* coeluso_free */
+.coeluso_free{}
+.coeluso_right h2{
+    font-size: 48px;
+}
+.coeluso_right span{color: #2e66b2;}
+.coeluso_right p{
+    font-size: 14px;
+    margin: 50px 0px 50px;
+    line-height: 3;
+    color: #66778e;
+}
+.row {  margin-right: 0px;}
+.coeluso_right a{
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #2a5ea4;
+  border-radius: 30px;
+  padding: 7px 32px;
+  font-size: 14px;transition: all 0.4s ease;
+  }
+.coeluso_right a:hover{
+  color: #ff3334;
+  background-color: #fff;
+  border: 1px solid #ff3334;
+  transform: scale(1.1);
+}
+/* coeluso_with */
+.coeluso_with{}
+.coeluso_heading{}
+.coeluso_heading span{}
+.coeluso_heading h2{}
+
+.coeluso_content{
+    min-width: 340px;
+}
+.coeluso_content img{
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+}
+.coeluso_content h6{
+    font-size: 24px;
+}
+.coeluso-img{}
+.coeluso_content p{
+    font-size: 14px;
+    color: #66778e;
+}
+
+
+ /* lorem_ipsum_ */
+ .lorem_ipsum{
+   background-image: url(../images/feature.png);
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   background-position: right;
+ }
+.vh-75{min-height: 75vh;}
+.lorem_content{}
+.lorem_content img{
+    width: 30px;
+    height: 30px;
+}
+.lorem_content h2{
+    font-size: 36px;
+    padding: 20px 0px;
+}
+.lorem_content p{
+    font-size: 14px;
+    margin: 0px;
+    line-height: 2.5;
+    color: #66778e;
+}
+
+
+/* discover_part */
+.discover_content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.discover{background-color: #040812;padding: 110px 0px;}
+.discover_content h5{
+    font-size: 36px;
+}
+.discover_content p{
+    font-size: 14px;
+    padding: 20px 0px 60px;
+}
+. a{text-decoration: none;
+color: #fff;
+border: 1px solid #2a5ea4;
+border-radius: 30px;
+padding: 10px 24px;
+font-size: 14px;
+font-family: inherit;
+font-weight: 600;transition: all 0.4s ease;}
+.discover_btn a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #2a5ea4;
+    border-radius: 30px;
+    padding: 10px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    margin: 0 auto;
+}
+.discover-images{}
+.discover_btn{text-align: center;}
+.discover_btn a:hover{color: #ff3334;/* background-color: #fff; */border: 1px solid #ffffff;}
+/* footer_section */
+footer{
+    background-color: #010103;
+}
+.footer_content-left{}
+.footer_content-left li{}
+.footer_content-left li a{
+    font-size: 14px;
+    margin-right: 16px;
+    color: #116ce49e;
+    font-family: inherit;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.footer_content-left li a:hover{
+    color: antiquewhite;
+}
+  .footer_content-right{
+
+}
+  .footer_content-right p{
+    color: #116ce49e;
+    font-size: 13px;
+    font-family: inherit;
+}
+  .footer_content-right span{
+    color: deepskyblue;
+}
